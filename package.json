@@ -1,0 +1,16 @@
+{
+  "name": "nonstop-bot",
+  "version": "1.0.0",
+  "description": "Bot to check the occupancy of Non Stop gyms",
+  "main": "bot.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabriela.benejam",
+  "license": "ISC"
+}
