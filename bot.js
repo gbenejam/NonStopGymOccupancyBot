@@ -12,7 +12,7 @@ bot.on('message', (msg) => {
   // send a message to the chat acknowledging receipt of their message
   (async () => {
     const occupancy = await nonStopApi.getOccucpancy();
-    const numPeople = Math.round(occupancy * 100 / 80);
+    const numPeople = Math.round(occupancy * 80 / 100);
     await bot.sendMessage(chatId, "Current occupancy is " + occupancy + "%  ~" + numPeople + " people");
   })();
 }); 
